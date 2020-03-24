@@ -11,7 +11,7 @@ def load_library
     emoticon_mean['get_meaning'][japanese] = meaning
     emoticon_mean['get_emoticon'][english] = japanese
   end
-  emoticons
+  emoticon_mean
   
 end
 
