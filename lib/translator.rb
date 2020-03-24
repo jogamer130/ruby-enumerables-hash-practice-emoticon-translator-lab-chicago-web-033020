@@ -9,7 +9,9 @@ def load_library
     english = value[0]
     japanese = value[0]
     emoticon_mean['get_meaning'][japanese] = meaning
-    
+    emoticon_mean['get_emoticon'][english] = japanese
+  end
+  emoticons
   
 end
 
