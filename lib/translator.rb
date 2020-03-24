@@ -7,7 +7,7 @@ def load_library
   
   emoticons.each do |meaning, value|
     english = value[0]
-    japanese = value[0]
+    japanese = value[1]
     emoticon_mean['get_meaning'][japanese] = meaning
     emoticon_mean['get_emoticon'][english] = japanese
   end
