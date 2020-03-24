@@ -6,6 +6,7 @@ def load_library
   emoticon_mean = {"get_meaning" => {}, "get_emot" => {} }
   
   emoticons.each do |meaning, value|
+    english = value[0]
     
   
 end
